@@ -1,0 +1,135 @@
+<header class="site-header sticky-top py-2">
+  <nav class="container d-flex flex-column flex-md-row justify-content-between">
+    <a class="py-2" href="#" aria-label="Product" class="row">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
+    </a>
+    <a class="py-2 d-none d-md-inline-block" href="#">About</a>
+    <a class="py-2 d-none d-md-inline-block" href="#">GitHub Repo</a>
+    <a class="py-2 d-none d-md-inline-block" href="#">Features</a>
+  </nav>
+</header>
+
+<main class="container">
+  <div class="row banner pt-4" style="margin-top: 2em !important;">
+    <div class="col-md-6"><br><br><br><br>
+      <h1 style="margin_top:2em !important;">Welcome to <span style="font-weight:900; color:red;">UseBucket</span><br>Manage Your Users</h1>
+      <p>User Management can be more easier than this. </p>
+    </div>
+    <div class="col-md-6">
+      <%= image_tag "/banner.png", class: "img-fluid" %>
+    </div>
+  </div>
+  <div class="row jumbotron" style="text-align: center">
+    <div class="col-md-3">
+      <i class="fas fa-user-plus fa-2x"></i><br>
+      <h4>Create User</h4>
+      <p>You can easily create your users with one-click.</p>
+    </div>
+    <div class="col-md-3">
+      <i class="fas fa-user-edit fa-2x"></i><br>
+      <h4>Update User</h4>
+      <p>You can easily create your users with one-click.</p>
+    </div>
+    <div class="col-md-3">
+      <i class="fas fa-users fa-2x"></i><br>
+      <h4>View User</h4>
+      <p>You can easily create your users with one-click.</p>
+    </div>
+    <div class="col-md-3">
+      <i class="fas fa-user-times fa-2x"></i><br>
+      <h4>Delete User</h4>
+      <p>You can easily create your users with one-click.</p>
+    </div>
+  </div>
+  <div class="row jumbotron">
+    <h2>Experience UseBucket</h2>
+  </div>
+  <div class="row">
+    <h2 class="text-center">Users Table</h2>
+    <table class="table table-striped table-dark">
+      <thead>
+        <tr>
+          <th scope="col">S/N</th>
+          <th scope="col">Last Updated</th>
+          <th scope="col">Name</th>
+          <th scope="col">Email</th>
+          <th scope="col">Title</th>
+          <th scope="col">Phone</th>
+          <th scope="col">Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+          <td>Mark</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+          <td>Mark</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Larry</td>
+          <td>the Bird</td>
+          <td>@twitter</td>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+          <td>Mark</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</main>
+
+<footer class="" style="background-color: rgba(0, 0, 0, .80);">
+  <div class="container py-3">
+    <div class="row" style="margin-top: 3em !important;">
+      <div class="col-12 col-md-4">
+      <div class="row pl-3">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>&nbsp;&nbsp;
+          <h4 style="color: #fff;">UseBucket</h4>
+      </div>
+        <p>UseBucket is a pipeline to create, edit, update and delete users. Managing users can not be as simple as this with UseBucket</p>
+        <small class="d-block mb-3 text-muted">&copy; 2017–2021</small>
+      </div>
+      <div class="col-6 col-md-3">
+        <h5>Features</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="link-secondary" href="#">Create User</a></li>
+          <li><a class="link-secondary" href="#">Update User</a></li>
+          <li><a class="link-secondary" href="#">View User Details</a></li>
+          <li><a class="link-secondary" href="#">Delete User</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md-3">
+        <h5>Resources</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="link-secondary" href="https://github.com/itsjuliuscoder" target="_blank">About</a></li>
+          <li><a class="link-secondary" href="#">GitHub Repo</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md-2">
+        <h5>Follow On</h5>
+        <ul class="list-unstyled social text-small">
+          <li><a class="link-secondary" href="#"><i class="fab fa-facebook-f mx-2"></i></a></li>
+          <li><a class="link-secondary" href="#"><i class="fab fa-twitter mx-2"></i></a></li>
+          <li><a class="link-secondary" href="#"><i class="fab fa-linkedin mx-2"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
