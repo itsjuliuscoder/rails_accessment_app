@@ -43,6 +43,29 @@
   </div>
   <div class="row jumbotron">
     <h2>Experience UseBucket</h2>
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      Launch demo modal
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
   <div class="row">
     <h2 class="text-center">Users Table</h2>
@@ -56,6 +79,7 @@
           <th scope="col">Title</th>
           <th scope="col">Phone</th>
           <th scope="col">Status</th>
+          <th scope="col">Action</th>
         </tr>
       </thead>
       <tbody>
@@ -99,10 +123,7 @@
   <div class="container py-3">
     <div class="row" style="margin-top: 3em !important;">
       <div class="col-12 col-md-4">
-      <div class="row pl-3">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>&nbsp;&nbsp;
-          <h4 style="color: #fff;">UseBucket</h4>
-      </div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
         <p>UseBucket is a pipeline to create, edit, update and delete users. Managing users can not be as simple as this with UseBucket</p>
         <small class="d-block mb-3 text-muted">&copy; 2017–2021</small>
       </div>
